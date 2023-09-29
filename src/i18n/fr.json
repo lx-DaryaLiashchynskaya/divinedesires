@@ -1,0 +1,10 @@
+{
+  "onboarding": {
+    "logo": "Désirs divins",
+    "login": "Connexion",
+    "screen1": {
+      "ageCheck": "Désirs divins selon votre âge",
+      "footerText": "2023 @ Tous droits réservés. En continuant, vous acceptez les conditions générales, la politique de confidentialité et les conditions d'abonnement."
+    }
+  }
+}
