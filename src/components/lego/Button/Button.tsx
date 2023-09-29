@@ -9,7 +9,7 @@ interface ButtonProps {
 
 export const Button= ({text,theme,width}:ButtonProps)=>{
     return (
-        <button className={`button ${theme===ButtonThemes.light? 'whiteButtonTheme':'redButtonTheme'}`}
+        <button className={`button ${theme===ButtonThemes.LIGHT? 'whiteButtonTheme':'redButtonTheme'}`}
                 style={{width:`${width}%`}}>
             {text}
         </button>

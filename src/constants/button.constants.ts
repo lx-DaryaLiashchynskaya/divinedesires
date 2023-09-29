@@ -1,4 +1,4 @@
 export enum ButtonThemes {
-    light='white',
-    dark='red'
+    LIGHT='white',
+    DARK='red'
 }
