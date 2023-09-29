@@ -1,0 +1,14 @@
+@import "./colors";
+
+$lightTheme: (
+        colorContainerBackground: $light-theme,
+        colorText: $light-theme-text,
+        colorBackground: $light-theme,
+);
+
+$darkTheme: (
+        colorContainerBackground: $dark-theme,
+        colorText: $dark-theme-text,
+        colorBackground: $dark-theme-background,
+);
+
