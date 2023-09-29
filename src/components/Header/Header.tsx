@@ -1,16 +1,16 @@
 import './Header.scss';
-import {darkThemeIcon} from "../../assets/themeIcons";
 import {FlagDropdown} from "../FlagDropdown/FlagDropdown";
 import {useTranslation} from "react-i18next";
+import {AppTheme} from "../AppTheme/AppTheme";
 
 export const Header =()=>{
     const { t } = useTranslation('onboarding');
 
-      return <header className="appHeader">
+      return <header className="header">
           {t("logo")}
           <div className={'headerIconsContainer'}>
             <FlagDropdown/>
-            <img alt={""} src={darkThemeIcon} className={"themeIcon"} />
+            <AppTheme/>
           </div>
       </header>
  }

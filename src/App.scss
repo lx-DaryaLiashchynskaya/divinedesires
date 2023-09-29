@@ -2,9 +2,22 @@
 @use './styles/layouts' as layoutExplore;
 @import "./styles/sizes";
 @import "./styles/fonts";
+@import './styles/themeVariables';
 
 .app {
   height:100vh;
+
+  &.light{
+    background: map.get($lightTheme, "colorBackground");
+    text-decoration-color: map.get($lightTheme, "colorText") ;
+    color: map.get($lightTheme, "colorText") ;
+  }
+
+  &.dark{
+    background: map.get($darkTheme, "colorBackground");
+    text-decoration-color: map.get($darkTheme, "colorText") ;
+    color: map.get($darkTheme, "colorText") ;
+  }
 }
 
 .appContainer{
@@ -18,6 +31,15 @@
   margin:auto;
   padding: 0 $app-container-side-padding;
   box-shadow: 0 0 25px 0 #0000001A;
+  z-index: 1;
+
+  &.light{
+    background: map.get($lightTheme, "colorContainerBackground");
+  }
+
+  &.dark{
+    background: map.get($darkTheme, "colorContainerBackground");
+  }
 }
 
 .bodyContainer{

@@ -1,8 +1,9 @@
 @use "sass:map";
 @import "./src/styles/sizes";
 @import "./src/styles/fonts";
+@import './src/styles/themeVariables';
 
-.appHeader {
+.header {
   font-weight: map.get($font-weights, "title");
   font-size: map.get($font-sizes, "title");
   display: flex;
@@ -16,13 +17,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.themeIcon {
-  width: $header-icons-size;
-  height: $header-icons-size;
-  cursor: pointer;
-  margin-left: 8px;
 }
 
 .flagIcon {
