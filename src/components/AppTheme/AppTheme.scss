@@ -1,0 +1,8 @@
+@import "./src/styles/sizes";
+
+.themeIcon {
+  width: $header-icons-size;
+  height: $header-icons-size;
+  cursor: pointer;
+  margin-left: 8px;
+}

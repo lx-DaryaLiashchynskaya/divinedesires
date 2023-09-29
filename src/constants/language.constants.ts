@@ -2,13 +2,13 @@ import {frenchFlag, germanFlag, portugalFlag, spainFlag, usaFlag} from "../asset
 
 export interface ILanguage {
     flagImage:string;
-    locale:string;
+    value:string;
 }
 
 export const languages: ILanguage[] = [
-    {flagImage: usaFlag, locale:'en'},
-    {flagImage: portugalFlag, locale:'pt'},
-    {flagImage: germanFlag, locale:'de'},
-    {flagImage: spainFlag, locale:'es'},
-    {flagImage:frenchFlag, locale:'fr'},
+    {flagImage: usaFlag, value:'en'},
+    {flagImage: portugalFlag, value:'pt'},
+    {flagImage: germanFlag, value:'de'},
+    {flagImage: spainFlag, value:'es'},
+    {flagImage:frenchFlag, value:'fr'},
 ];
