@@ -2,6 +2,7 @@ import './FlagDropdown.scss';
 import React, {useState} from "react";
 import Select, {StylesConfig} from "react-select";
 import {ILanguage, languages} from "../../constants/language.constants";
+import {i18n} from "../../i18n";
 
 const defaultLanguage:ILanguage = languages[0];
 
@@ -9,6 +10,7 @@ export const FlagDropdown =()=>{
     const [selectedLanguage, setSelectedLanguage] = useState<ILanguage>(defaultLanguage);
 
     const onLanguageChange=(language:any)=>{
+        i18n.changeLanguage(language.locale)
         setSelectedLanguage(language)
     }
 
@@ -16,20 +18,19 @@ export const FlagDropdown =()=>{
         control: (styles) => ({ ...styles,  border:0, backgroundColor: 'white', boxShadow: 'none' }),
         input:(styles) => ({ ...styles,caretColor:'transparent'}),
         valueContainer: (styles) => ({ ...styles,padding:0, backgroundColor: 'white' }),
-        option: (styles, { isSelected }) => {
+        option: (styles, {  isSelected }) => {
             return {
                 ...styles,
                 cursor:'pointer',
                 backgroundColor: isSelected
-                        ? '#cf0a0a'
+                        ? 'yellow'
                             : undefined,
 
                 ':hover': {
                     ...styles[':hover'],
                     backgroundColor: isSelected
                         ? undefined
-                        : '\n' +
-                        '#fae7e7',
+                        :'#fae7e7',
                 },
             };
         },
