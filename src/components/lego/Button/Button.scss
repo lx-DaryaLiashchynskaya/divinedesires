@@ -1,0 +1,33 @@
+@use "sass:map";
+@import "./src/styles/sizes";
+@import "./src/styles/colors";
+@import "./src/styles/fonts";
+
+.button {
+  border-radius: $default-border-radius;
+  border: 3px solid $main-red-color;
+  font-weight: map.get($font-weights, "text");
+  font-size: map.get($font-sizes, "text");
+  padding: 20px 74px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.whiteButtonTheme {
+  color: $dark-theme;
+  background-color: $light-theme;
+}
+
+.whiteButtonTheme:hover {
+  background-color: $main-red-color;
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.9);
+}
+
+.redButtonTheme {
+  color: $light-theme;
+  background-color: $main-red-color;
+}
+
+.redButtonTheme:hover {
+  background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+}

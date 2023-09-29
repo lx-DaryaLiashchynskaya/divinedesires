@@ -1,0 +1,20 @@
+$small-smartphone: 'small-smartphone';
+$smartphone: 'smartphone';
+$desktop: 'desktop';
+
+@mixin for-device($device) {
+  @if $device == $small-smartphone {
+    @media (max-width: 360px) {
+      @content;
+    }
+  }
+  @else if $device == $smartphone {
+    @media (min-width: 361px) {
+      @content;
+    }
+  }@else if $device == $desktop {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}

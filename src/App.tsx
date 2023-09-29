@@ -1,11 +1,13 @@
 import './App.scss';
+import {Header} from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      Divine Desires
-      </header>
+    <div className="app">
+        <div className={'appContainer'}>
+            <Header />
+            <div className={'bodyContainer'}>body</div>
+        </div>
     </div>
   );
 }
