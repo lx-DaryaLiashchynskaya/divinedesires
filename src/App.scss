@@ -1,14 +1,27 @@
-.App {
-  text-align: center;
+@use "sass:map";
+@use './styles/layouts' as layoutExplore;
+@import "./styles/sizes";
+@import "./styles/fonts";
+
+.app {
+  height:100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.appContainer{
+  border-radius: $default-border-radius;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 535px;
+  margin:auto;
+  padding: 0 $app-container-side-padding;
+  box-shadow: 0 0 25px 0 #0000001A;
 }
+
+.bodyContainer{
+  border: 1px solid red;
+  flex-grow: 1;
+}
+
