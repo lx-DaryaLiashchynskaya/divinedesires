@@ -10,7 +10,7 @@
       "beforeBeginTitle": "Bevor wir beginnen",
       "beforeBeginInfo": "lassen Sie uns etwas vereinbaren: Es ist wichtig, dass Sie meine Fragen so ehrlich wie möglich beantworten. Ich werde Ihre Antworten niemandem zeigen, und sie bleiben unter uns! Je ehrlicher deine Antworten sind, desto besser kann ich dir helfen.",
       "beforeBeginAgreeQuestion": "Einverstanden?",
-      "AgreeButtonText": "YES"
+      "agreeButtonText": "YES"
     }
   }
 }
