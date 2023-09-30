@@ -2,8 +2,8 @@
   "onboarding": {
     "logo": "Göttliche Wünsche",
     "login": "Einloggen",
-    "screen1": {
-      "ageCheck": "Göttliche Wünsche je nach Alter",
+    "ageCheckScreen": {
+      "ageCheckInfo": "Göttliche Wünsche je nach Alter",
       "footerText": "2023 @ Alle Rechte vorbehalten. Wenn Sie fortfahren, erklären Sie sich mit den Allgemeinen Geschäftsbedingungen, der Datenschutzrichtlinie und den Abonnementbedingungen einverstanden."
     } }
 }

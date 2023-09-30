@@ -2,8 +2,8 @@
   "onboarding": {
     "logo": "Divine Desires",
     "login": "Log In",
-    "screen1": {
-      "ageCheck": "Divine Desires according to your age",
+    "ageCheckScreen": {
+      "ageCheckInfo": "Divine Desires according to your age",
       "footerText": "2023 @ All Rights Reserved. By continuing, you agree with Terms and Conditions,  Privacy Policy, Subscription Terms"
   } }
 }

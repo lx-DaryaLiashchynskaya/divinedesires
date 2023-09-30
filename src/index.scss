@@ -1,0 +1,30 @@
+@use "sass:map";
+@import "../src/styles/sizes.scss";
+@import "../src/styles/fonts.scss";
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+}
+
+h4 {
+  font-weight: map.get($font-weights, "title");
+  font-size: map.get($font-sizes, "title");
+}
+
+h6 {
+  font-weight: map.get($font-weights, "text");
+  font-size: map.get($font-sizes, "text");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

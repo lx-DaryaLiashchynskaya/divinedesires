@@ -4,7 +4,7 @@ import './Button.scss';
 interface ButtonProps {
     text:string;
     theme:ButtonThemes;
-    width:number
+    width:number;
 }
 
 export const Button= ({text,theme,width}:ButtonProps)=>{
