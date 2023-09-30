@@ -1,0 +1,9 @@
+@use "sass:map";
+@import "./src/styles/sizes";
+
+.ageCheckFooter{
+  font-size: map.get($font-sizes, "footer");
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
