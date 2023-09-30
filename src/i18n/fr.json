@@ -9,7 +9,7 @@
     "honestCheckScreen": {
       "beforeBeginTitle": "Avant de commencer",
       "beforeBeginInfo": "mettons-nous d'accord : Il est important que vous répondiez à mes questions le plus honnêtement possible. Je ne montrerai vos réponses à personne et elles resteront entre nous ! Plus vous serez honnête dans vos réponses, plus je pourrai vous aider.",
-      "beforeBeginAgreeQuestion": "Vous êtes d'accord?",
+      "beforeBeginQuestion": "Vous êtes d'accord?",
       "agreeButtonText": "OUI"
     }
   }
