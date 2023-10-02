@@ -1,0 +1,37 @@
+@use "sass:map";
+@import "./src/styles/sizes";
+@import "../../styles/fonts-weights";
+
+.honestCheckContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beforeBeginPicture {
+  border-radius: $picture-border-radius;
+}
+
+.honestCheckTitle {
+  text-align: center;
+  margin-top: $default-gap;
+}
+
+.honestCheckText {
+  text-align: center;
+  margin-top: $default-gap;
+}
+
+.honestCheckQuestion {
+  text-align: center;
+  margin-top: $default-gap;
+  font-weight: map.get($font-weights,"title");
+}
+
+.agreeButton {
+  margin-top: $default-gap;
+  margin-bottom: $default-bottom-container-side-gap;
+}
+
+

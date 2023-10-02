@@ -1,6 +1,6 @@
 @use "sass:map";
 @import "../src/styles/sizes.scss";
-@import "../src/styles/fonts.scss";
+@import "styles/fonts-weights";
 
 * {
   margin:0;
@@ -19,7 +19,7 @@ h4 {
   font-size: map.get($font-sizes, "title");
 }
 
-h6 {
+h6, p {
   font-weight: map.get($font-weights, "text");
   font-size: map.get($font-sizes, "text");
 }

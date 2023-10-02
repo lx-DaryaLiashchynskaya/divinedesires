@@ -7,7 +7,7 @@ export const Header =()=>{
     const { t } = useTranslation('onboarding');
 
       return <header className="header">
-          <h4>{t("logo")}</h4>
+          <h4>{t("logo").toString().toUpperCase()}</h4>
           <div className={'headerIconsContainer'}>
             <FlagDropdown/>
             <AppTheme/>

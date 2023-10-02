@@ -1,11 +1,12 @@
 @use "sass:map";
 @use './styles/layouts' as layoutExplore;
 @import "./styles/sizes";
-@import "./styles/fonts";
+@import "styles/fonts-weights";
 @import './styles/themeVariables';
 
 .app {
-  height:100vh;
+  height:100%;
+  min-height: 100vh;
 
   &.light{
     background: map.get($lightTheme, "colorBackground");
@@ -23,6 +24,7 @@
 .appContainer{
   border-radius: $default-border-radius;
   height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,12 +42,4 @@
     background: map.get($darkTheme, "colorContainerBackground");
   }
 }
-
-.ageCheckFooter{
-  font-size: map.get($font-sizes, "footer");
-  text-align: center;
-  display: flex;
-  justify-content: flex-end;
-}
-
 

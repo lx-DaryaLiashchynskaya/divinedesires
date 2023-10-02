@@ -5,6 +5,12 @@
     "ageCheckScreen": {
       "ageCheckInfo": "Désirs divins selon votre âge",
       "footerText": "2023 @ Tous droits réservés. En continuant, vous acceptez les conditions générales, la politique de confidentialité et les conditions d'abonnement."
+    },
+    "honestCheckScreen": {
+      "beforeBeginTitle": "Avant de commencer",
+      "beforeBeginInfo": "mettons-nous d'accord : Il est important que vous répondiez à mes questions le plus honnêtement possible. Je ne montrerai vos réponses à personne et elles resteront entre nous ! Plus vous serez honnête dans vos réponses, plus je pourrai vous aider.",
+      "beforeBeginQuestion": "Vous êtes d'accord?",
+      "agreeButtonText": "OUI"
     }
   }
 }

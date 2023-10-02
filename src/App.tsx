@@ -1,24 +1,30 @@
 import './App.scss';
 import {Header} from "./components/Header/Header";
 import {useState} from "react";
+import {Routes , Route } from "react-router-dom";
 import { ThemeContext } from './context/themeContext';
 import {getDefaultTheme} from "./utils/theme.utils";
-import {OnBoardingAgeCheck} from "./components/OnBoardingAgeCheck/OnBoardingAgeCheck";
-import {useTranslation} from "react-i18next";
+import {BrowserRouter} from "react-router-dom";
+import {AgeCheckScreen} from "./screens/AgeCheck/AgeCheckScreen";
+import {HonestCheckScreen} from "./screens/HonestCheck/HonestCheckScreen";
+import {HONEST_CHECK_ROUTE} from "./constants/routes.constants";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);
-    const { t } = useTranslation('onboarding');
 
   return (
       <ThemeContext.Provider value={{ theme, setTheme }}>
+          <BrowserRouter>
               <div className={`app ${theme}`}>
                   <div className={`appContainer ${theme}`}>
                       <Header />
-                      <OnBoardingAgeCheck/>
-                      <div className={'ageCheckFooter'}>{t("ageCheckScreen.footerText")}</div>
+                      <Routes>
+                          <Route path="/" element={<AgeCheckScreen/> } />
+                          <Route path={HONEST_CHECK_ROUTE} element={<HonestCheckScreen/> } />
+                      </Routes>
                   </div>
               </div>
+          </BrowserRouter>
       </ThemeContext.Provider>
   );
 }
