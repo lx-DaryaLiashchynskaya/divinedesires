@@ -11,6 +11,11 @@
       "beforeBeginInfo": "let's agree: It is important that you answer my questions as honestly as possible. I won't show your answers to anyone, and they will stay just between us! The more honest you are in your responses, the more I can help you.",
       "beforeBeginQuestion": "Agreed?",
       "agreeButtonText": "YES"
+    },
+    "testBeginningScreen": {
+      "introductoryTitle": "1.6 million people",
+      "introductoryText": "transformed their <strong>Sex Life</strong> and improved their relationships",
+      "continueButton": "CONTINUE"
     }
   }
 }

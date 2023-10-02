@@ -11,6 +11,11 @@
       "beforeBeginInfo": "vamos combinar: É importante que responda às minhas perguntas da forma mais honesta possível. Não mostrarei as suas respostas a ninguém, e elas ficarão apenas entre nós! Quanto mais honesto for nas suas respostas, mais eu o poderei ajudar.",
       "beforeBeginQuestion": "De acordo?",
       "agreeButtonText": "SIM"
+    },
+    "testBeginningScreen": {
+      "introductoryTitle": "1,6 milhões de pessoas",
+      "introductoryText": "transformaram a sua <strong>vida sexual</strong> e melhoraram as suas relações",
+      "continueButton": "CONTINUAR"
     }
   }
 }

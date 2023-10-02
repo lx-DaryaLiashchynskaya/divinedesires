@@ -3,6 +3,8 @@ import {beforeBeginPicture} from "../../assets/onBoardingPictures";
 import {Button} from "../../components/lego/Button/Button";
 import {ButtonThemes} from "../../constants/button.constants";
 import './HonestCheckScreen.scss';
+import {Link} from "react-router-dom";
+import {TEST_BEGINNING_ROUTE} from "../../constants/routes.constants";
 
 export const HonestCheckScreen =()=>{
     const { t } = useTranslation('onboarding');
@@ -20,7 +22,9 @@ export const HonestCheckScreen =()=>{
                 <h6 className={'honestCheckQuestion'}>{t("honestCheckScreen.beforeBeginQuestion")}</h6>
             </div>
             <div className={'agreeButton'}>
-            <Button text={getAgreeButtonText()} theme={ButtonThemes.DARK} width={100} />
+                <Link to={TEST_BEGINNING_ROUTE}>
+                    <Button text={getAgreeButtonText()} theme={ButtonThemes.DARK} width={100} />
+                </Link>
             </div>
         </>
     )

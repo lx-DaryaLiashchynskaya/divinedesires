@@ -11,6 +11,11 @@
       "beforeBeginInfo": "lassen Sie uns etwas vereinbaren: Es ist wichtig, dass Sie meine Fragen so ehrlich wie möglich beantworten. Ich werde Ihre Antworten niemandem zeigen, und sie bleiben unter uns! Je ehrlicher deine Antworten sind, desto besser kann ich dir helfen.",
       "beforeBeginQuestion": "Einverstanden?",
       "agreeButtonText": "YES"
+    },
+    "testBeginningScreen": {
+      "introductoryTitle": "1,6 Millionen Menschen",
+      "introductoryText": "haben ihr <strong>Sexualleben verändert</strong> und ihre Beziehungen verbessert",
+      "continueButton": "WEITER"
     }
   }
 }
