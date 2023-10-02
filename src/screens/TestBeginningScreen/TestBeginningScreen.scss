@@ -1,0 +1,29 @@
+@import "./src/styles/sizes";
+@import "../../styles/colors";
+
+.testBeginningContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hundredsOfThousandsPicture {
+  border-radius: $picture-border-radius;
+}
+
+.testBeginningTitle {
+  text-align: center;
+  margin-top: $default-gap*2;
+  color: $main-red-color;
+}
+
+.testBeginningText {
+  text-align: center;
+  margin-top: $default-gap;
+}
+
+.continueButton {
+  margin-top: $default-gap*2;
+  margin-bottom: $default-bottom-container-side-gap;
+}
