@@ -11,6 +11,11 @@
       "beforeBeginInfo": "mettons-nous d'accord : Il est important que vous répondiez à mes questions le plus honnêtement possible. Je ne montrerai vos réponses à personne et elles resteront entre nous ! Plus vous serez honnête dans vos réponses, plus je pourrai vous aider.",
       "beforeBeginQuestion": "Vous êtes d'accord?",
       "agreeButtonText": "OUI"
+    },
+    "testBeginningScreen": {
+      "introductoryTitle": "1,6 million de personnes",
+      "introductoryText": "ont transformé leur vie sexuelle et amélioré leurs relations",
+      "continueButton": "CONTINUER"
     }
   }
 }

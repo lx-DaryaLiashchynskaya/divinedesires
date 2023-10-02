@@ -11,6 +11,11 @@
       "beforeBeginInfo": "pongámonos de acuerdo: Es importante que respondas a mis preguntas con la mayor sinceridad posible. No mostraré tus respuestas a nadie, y quedarán entre nosotros. Cuanto más honesto seas en tus respuestas, más podré ayudarte.",
       "beforeBeginQuestion": "¿De acuerdo?",
       "agreeButtonText": "SÍ"
+    },
+    "testBeginningScreen": {
+      "introductoryTitle": "1,6 millones de personas",
+      "introductoryText": "transformaron su Vida Sexual y mejoraron sus relaciones de pareja",
+      "continueButton": "CONTINUAR"
     }
   }
 }
