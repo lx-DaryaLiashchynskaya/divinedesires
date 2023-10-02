@@ -6,7 +6,7 @@
 .button {
   border-radius: $default-border-radius;
   border: 3px solid $main-red-color;
-  font-weight: map.get($font-weights, "text");
+  font-weight: map.get($font-weights, "title");
   font-size: map.get($font-sizes, "text");
   padding: 15px 74px;
   text-align: center;
