@@ -1,7 +1,7 @@
 @use "sass:map";
 @import "./src/styles/sizes";
 @import "./src/styles/colors";
-@import "./src/styles/fonts";
+@import "../../../styles/fonts-weights";
 
 .button {
   border-radius: $default-border-radius;
