@@ -14,7 +14,7 @@
     },
     "testBeginningScreen": {
       "introductoryTitle": "1,6 millones de personas",
-      "introductoryText": "transformaron su Vida Sexual y mejoraron sus relaciones de pareja",
+      "introductoryText": "transformaron su <strong>Vida Sexual</strong> y mejoraron sus relaciones de pareja",
       "continueButton": "CONTINUAR"
     }
   }

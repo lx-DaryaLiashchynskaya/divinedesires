@@ -14,7 +14,7 @@
     },
     "testBeginningScreen": {
       "introductoryTitle": "1.6 million people",
-      "introductoryText": "transformed their Sex Life and improved their relationships",
+      "introductoryText": "transformed their <strong>Sex Life</strong> and improved their relationships",
       "continueButton": "CONTINUE"
     }
   }

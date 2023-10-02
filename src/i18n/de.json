@@ -14,7 +14,7 @@
     },
     "testBeginningScreen": {
       "introductoryTitle": "1,6 Millionen Menschen",
-      "introductoryText": "haben ihr Sexualleben verändert und ihre Beziehungen verbessert",
+      "introductoryText": "haben ihr <strong>Sexualleben verändert</strong> und ihre Beziehungen verbessert",
       "continueButton": "WEITER"
     }
   }
