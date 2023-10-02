@@ -8,7 +8,7 @@ export const AgeCheckScreen =()=>{
     return (
     <>
         <OnBoardingAgeCheck/>
-        <div className={'ageCheckFooter'}>{t("ageCheckScreen.footerText")}</div>
+        <footer className={'ageCheckFooter'}>{t("ageCheckScreen.footerText")}</footer>
     </>
     )
 }
