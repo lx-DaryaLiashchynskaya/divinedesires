@@ -15,7 +15,7 @@ import {
 const defaultLanguage:ILanguage = languages[0];
 
 const colourStyles: StylesConfig<ILanguage>={
-        control: (styles) => ({...styles, border: 0, boxShadow: 'none',marginTop:'5px'}),
+        control: (styles) => ({...styles, border: 0, boxShadow: 'none',marginTop:'5px',minWidth:'max-content'}),
         input: (styles) => ({...styles, caretColor: 'transparent'}),
         valueContainer: (styles) => ({...styles, padding: 0}),
         dropdownIndicator: (styles) => ({...styles, padding: '0 5px 0 0',}),
