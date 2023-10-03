@@ -16,13 +16,13 @@ export const ConfidentCheckScreen =()=>{
         return t("confidentCheckScreen.disagreeButton")
     }
 
-
     return (
         <>
             <div className={'confidentCheckContainer'}>
                 <img src={feelPhysicallyConfident} width={'100%'} alt={''} className={'physicallyConfidentPicture'}/>
                 <p className={'confidentCheckQuestion'}>{t("confidentCheckScreen.confidentFeelQuestion")}</p>
             </div>
+            <div>
             <div className={'confidentAgreeButton'}>
                 <Link to={'/'}>
                     <Button text={getAgreeButtonText()} theme={ButtonThemes.DARK} width={100} />
@@ -32,6 +32,7 @@ export const ConfidentCheckScreen =()=>{
                 <Link to={'/'}>
                     <Button text={getDisagreeButtonText()} theme={ButtonThemes.DARK} width={100} />
                 </Link>
+            </div>
             </div>
         </>
     )
