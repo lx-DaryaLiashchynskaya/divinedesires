@@ -85,8 +85,7 @@
     },
     "intimateLifeCheckScreen": {
       "title": "I'm asking you the final question",
-      "text": "sweetheart, and then we'll move on to the main thing!",
-      "rateText": "Rate your intimate life with your partner.",
+      "rateText": "sweetheart, and then we'll move on to the main thing! <strong>Rate your intimate life with your partner.</strong>",
       "excellentOptionText": "Excellent, couldn't be better.",
       "goodOptionText": "Good, but there's room for improvement.",
       "averageMinOptionText": "Average, it's neither great nor terrible.",

@@ -10,7 +10,7 @@
       "beforeBeginTitle": "Bevor wir beginnen",
       "beforeBeginInfo": "lassen Sie uns etwas vereinbaren: Es ist wichtig, dass Sie meine Fragen so ehrlich wie möglich beantworten. Ich werde Ihre Antworten niemandem zeigen, und sie bleiben unter uns! Je ehrlicher deine Antworten sind, desto besser kann ich dir helfen.",
       "beforeBeginQuestion": "Einverstanden?",
-      "agreeButtonText": "YES"
+      "agreeButtonText": "JA"
     },
     "testBeginningScreen": {
       "introductoryTitle": "Hunderttausende von",
@@ -31,7 +31,7 @@
     "candidlyCheckScreen": {
       "title": "Na klar, es scheint, als hätten wir etwas, worüber wir offen reden können!",
       "supportText": "Denken Sie daran, dass wir vereinbart haben, dass wir so ehrlich wie möglich antworten!",
-      "agreeButton": "YES"
+      "agreeButton": "JA"
     },
     "relationshipIssuesScreen": {
       "question": "Welches Beziehungsproblem belastet Sie derzeit am meisten?",
@@ -51,18 +51,18 @@
       "title": "Bevor ich Ihnen einen coolen, wichtigen Rat geben kann",
       "text": "muss ich noch ein paar Dinge von Ihnen wissen. Bitte antworten Sie ehrlich, denken Sie daran, dass wir uns darauf geeinigt haben.",
       "question": "Können Sie sagen, dass Sie Ihrem Partner gegenüber völlig offen sind?",
-      "agreeButtonText": "YES",
+      "agreeButtonText": "JA",
       "disagreeButtonText": "NEIN"
     },
     "relationshipOpennessScreen": {
-      "title": "Darling, du bist wirklich clever",
+      "title": "Liebling, du bist wirklich clever",
       "text": "Es ist toll, dass du offen bist. Und ich hoffe, dein Partner ist auch 100% offen zu dir.",
       "continueButtonText": "WEITER"
     },
     "relationshipDistantScreen": {
       "title": "Liebling, versuche, ihnen gegenüber völlig offen zu sein",
       "text": "Manchmal sehen wir ein Problem, aber wir wollen es nicht selbst lösen oder die ersten Schritte unternehmen. Mach den ersten Schritt und du wirst sehen, die ersten Veränderungen werden dich nicht warten lassen.",
-      "tryButtonText": "I'LL TRY"
+      "tryButtonText": "ICH WERDE ES VERSUCHEN"
     },
     "educationTimeCheckScreen": {
       "question": "Wie viel Zeit sind Sie bereit zu investieren, um zu lernen, wie Sie Ihr <strong>Sexualleben</strong> verändern können?",
@@ -73,20 +73,19 @@
     },
     "somethingNewReadinessScreen": {
       "question": "Wollen Sie Ihren Partner im Bett <strong>\"von A bis Z\"</strong> erkunden und etwas Neues ausprobieren?",
-      "agreeButtonText": "YES"
+      "agreeButtonText": "JA"
     },
     "elevateSexualPotentialScreen": {
       "question": "Möchten Sie Ihre <strong>sexuellen Erfahrungen</strong> aufwerten und Monotonie und Langeweile beseitigen?",
-      "agreeButtonText": "YES"
+      "agreeButtonText": "JA"
     },
     "enticingOneScreen": {
       "question": "Willst du die Verführerin sein, die einen Mann <strong>atemlos</strong> macht?",
-      "agreeButtonText": "YES"
+      "agreeButtonText": "JA"
     },
     "intimateLifeCheckScreen": {
       "title": "Ich stelle Ihnen jetzt die letzte Frage",
-      "text": "mein Schatz, und dann kommen wir zur Hauptsache!",
-      "rateText": "Bewerten Sie Ihr Intimleben mit Ihrem Partner.",
+      "rateText": "mein Schatz, und dann kommen wir zur Hauptsache! <strong>Bewerten Sie Ihr Intimleben mit Ihrem Partner.</strong>",
       "excellentOptionText": "Ausgezeichnet, könnte nicht besser sein.",
       "goodOptionText": "Gut, aber es gibt noch Raum für Verbesserungen.",
       "averageMinOptionText": "Durchschnittlich ist es weder großartig noch schrecklich.",

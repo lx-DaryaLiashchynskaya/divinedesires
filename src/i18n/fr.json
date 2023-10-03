@@ -85,8 +85,7 @@
     },
     "intimateLifeCheckScreen": {
       "title": "Je te pose la dernière question",
-      "text": "ma chérie, et après on passe à l'essentiel !",
-      "rateText": "Évaluez votre vie intime avec votre partenaire.",
+      "rateText": "ma chérie, et après on passe à l'essentiel ! <strong>Évaluez votre vie intime avec votre partenaire.</strong>",
       "excellentOptionText": "Excellent, on ne peut mieux.",
       "goodOptionText": "Bon, mais il y a de la place pour l'amélioration.",
       "averageMinOptionText": "Moyenne, ce n'est ni bien ni mal.",
