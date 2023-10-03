@@ -16,6 +16,11 @@
       "introductoryTitle": "Hunderttausende von",
       "introductoryText": "Frauen haben ihr volles Potenzial entfaltet, ihr <strong>Sexualleben verändert</strong> und ihre Beziehungen verbessert",
       "continueButton": "WEITER"
+    },
+    "confidentCheckScreen": {
+      "confidentFeelQuestion": "Fühlen Sie sich körperlich sicher und zufrieden?",
+      "agreeButton": "Ja, völlig",
+      "disagreeButton": "Es könnte besser sein"
     }
   }
 }
