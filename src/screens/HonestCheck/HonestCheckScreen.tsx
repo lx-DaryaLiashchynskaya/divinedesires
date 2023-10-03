@@ -9,10 +9,6 @@ import {TEST_BEGINNING_ROUTE} from "../../constants/routes.constants";
 export const HonestCheckScreen =()=>{
     const { t } = useTranslation('onboarding');
 
-    const getAgreeButtonText=()=>{
-        return t("honestCheckScreen.agreeButtonText")
-    }
-
     return (
         <>
             <div className={'honestCheckContainer'}>
@@ -23,7 +19,7 @@ export const HonestCheckScreen =()=>{
             </div>
             <div className={'agreeButton'}>
                 <Link to={TEST_BEGINNING_ROUTE}>
-                    <Button text={getAgreeButtonText()} theme={ButtonThemes.DARK} width={100} />
+                    <Button text={t("honestCheckScreen.agreeButtonText")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
         </>

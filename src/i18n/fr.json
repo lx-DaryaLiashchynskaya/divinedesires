@@ -21,6 +21,12 @@
       "confidentFeelQuestion": "Vous sentez-vous physiquement confiant(e) et satisfait(e) ?",
       "agreeButton": "Oui, tout à fait",
       "disagreeButton": "Les choses pourraient s'améliorer"
+    },
+    "currentRelationshipScreen": {
+      "stageCheckQuestion": "Dans quelle mesure êtes-vous satisfait(e) de votre relation actuelle avec votre partenaire ?",
+      "breakingUpStageButton": "Vous êtes au bord de la rupture.",
+      "perfectStageButton": "Tout est parfait.",
+      "difficultQuestionButton": "Il m'est difficile de répondre."
     }
   }
 }
