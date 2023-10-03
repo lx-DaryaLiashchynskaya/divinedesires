@@ -1,0 +1,29 @@
+@use "sass:map";
+@import "./src/styles/sizes";
+@import "../../styles/fonts-weights";
+
+.confidentCheckContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.physicallyConfidentPicture {
+  border-radius: $picture-border-radius;
+}
+
+.confidentCheckQuestion {
+  text-align: center;
+  margin-top: $default-gap*2;
+  font-weight: map.get($font-weights,"text");
+}
+
+.confidentAgreeButton {
+  margin-top: $default-gap*2;
+}
+
+.confidentDisagreeButton {
+  margin-top: $default-gap;
+  margin-bottom: $default-bottom-gap;
+}

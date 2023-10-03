@@ -1,4 +1,4 @@
-import {TEST_BEGINNING_ROUTE} from "./routes.constants";
+import {CONFIDENT_CHECK_ROUTE, TEST_BEGINNING_ROUTE} from "./routes.constants";
 
 export enum ProgressBarState {
     FILLED='filled',
@@ -6,5 +6,5 @@ export enum ProgressBarState {
 }
 
 export const PROGRESS_BAR_ROUTES:string[]=
-   [TEST_BEGINNING_ROUTE]
+   [TEST_BEGINNING_ROUTE, CONFIDENT_CHECK_ROUTE]
 
