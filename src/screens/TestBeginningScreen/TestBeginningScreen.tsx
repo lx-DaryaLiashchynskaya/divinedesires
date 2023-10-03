@@ -9,10 +9,6 @@ import {CONFIDENT_CHECK_ROUTE} from "../../constants/routes.constants";
 export const TestBeginningScreen =()=>{
     const { t } = useTranslation('onboarding');
 
-    const getContinueButtonText=()=>{
-        return t("testBeginningScreen.continueButton")
-    }
-
     return (
         <>
             <div className={'testBeginningContainer'}>
@@ -24,7 +20,7 @@ export const TestBeginningScreen =()=>{
             </div>
             <div className={'continueButton'}>
                 <Link to={CONFIDENT_CHECK_ROUTE}>
-                <Button text={getContinueButtonText()} theme={ButtonThemes.DARK} width={100} />
+                <Button text={t("testBeginningScreen.continueButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
         </>

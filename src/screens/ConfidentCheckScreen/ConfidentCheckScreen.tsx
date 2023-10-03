@@ -8,14 +8,6 @@ import {Link} from "react-router-dom";
 export const ConfidentCheckScreen =()=>{
     const { t } = useTranslation('onboarding');
 
-    const getAgreeButtonText=()=>{
-        return t("confidentCheckScreen.agreeButton")
-    }
-
-    const getDisagreeButtonText=()=>{
-        return t("confidentCheckScreen.disagreeButton")
-    }
-
     return (
         <>
             <div className={'confidentCheckContainer'}>
@@ -25,12 +17,12 @@ export const ConfidentCheckScreen =()=>{
             <div>
             <div className={'confidentAgreeButton'}>
                 <Link to={'/'}>
-                    <Button text={getAgreeButtonText()} theme={ButtonThemes.DARK} width={100} />
+                    <Button text={t("confidentCheckScreen.agreeButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
             <div className={'confidentDisagreeButton'}>
                 <Link to={'/'}>
-                    <Button text={getDisagreeButtonText()} theme={ButtonThemes.DARK} width={100} />
+                    <Button text={t("confidentCheckScreen.disagreeButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
             </div>
