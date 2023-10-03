@@ -27,6 +27,92 @@
       "breakingUpStageButton": "Estás a punto de romper.",
       "perfectStageButton": "Todo es perfecto.",
       "difficultQuestionButton": "Me resulta difícil contestar."
+    },
+    "candidlyCheckScreen": {
+      "title": "Claro, ¡parece que tenemos algo de lo que hablar con franqueza! ",
+      "supportText": "Recuerda que lo acordamos: ¡responderemos con la mayor sinceridad posible!",
+      "agreeButton": "SÍ"
+    },
+    "relationshipIssuesScreen": {
+      "question": "¿Qué problema de pareja le preocupa más actualmente?",
+      "understandingIssueText": "Falta de entendimiento con mi pareja. No podemos mantener un diálogo abierto y tranquilo.",
+      "noCommonInterestsIssueText":"Tenemos valores y visiones de la vida diferentes. No tenemos intereses comunes.",
+      "domesticIssueText": "Problemas domésticos en la relación. No podemos afrontarlos.",
+      "boredomIssueText": "Aburrimiento. El sexo se ha vuelto soso y poco interesante, mi pareja no quiere probar nada nuevo y hace mucho que no tengo una cita.",
+      "interestIssueText": "Veo que está más interesado en otras chicas que en mí."
+    },
+    "boredomDiscussionScreen": {
+      "title": "A veces, incluso en las relaciones más felices",
+      "text": "la pareja puede aburrirse. Todo empezó tan bien: el periodo de ramo y caramelo del cortejo, la pasión, el romance, el sexo intenso, las largas conversaciones durante toda la noche...",
+      "question": "Pero ahora es rutina, monotonía y ningún signo de atención...",
+      "agreeButtonText": "SÍ, ASÍ ES."
+    },
+    "checkPartnerOpennessScreen": {
+      "title": "Antes de darte un consejo genial e importante",
+      "text": "necesito saber algunas cosas más de ti. Por favor, contesta honestamente, recuerda, lo acordamos.",
+      "question": "¿Puedes decir que eres completamente abierto con tu pareja?",
+      "agreeButtonText": "SI",
+      "disagreeButtonText": "NO"
+    },
+    "relationshipOpennessScreen": {
+      "title": "Cariño, eres muy inteligente",
+      "text": "Es genial que seas abierta. Y espero que tu pareja también sea 100% abierta contigo.",
+      "continueButtonText": "CONTINUAR"
+    },
+    "relationshipDistantScreen": {
+      "title": "Cariño, intenta ser completamente abierto con ellos",
+      "text": " A veces vemos un problema pero no queremos resolverlo nosotros mismos o dar los primeros pasos. Da el primer paso y verás como los primeros cambios no se hacen esperar.",
+      "tryButtonText": "LO INTENTARÉ"
+    },
+    "educationTimeCheckScreen": {
+      "question": "¿Cuánto tiempo estás dispuesto a dedicar para aprender a transformar tu <strong>Vida Sexual?</strong>",
+      "tenMinOptionText": "10 min/día",
+      "twentyMinOptionText": "20 min/día",
+      "thirtyMinOptionText": "30 min/día",
+      "sixtyMinOptionText": "60 min/día"
+    },
+    "somethingNewReadinessScreen": {
+      "question": "¿Quieres explorar a tu pareja en la cama <strong>\"de la A a la Z\"</strong> y probar algo nuevo?\n",
+      "agreeButtonText": "SÍ"
+    },
+    "elevateSexualPotentialScreen": {
+      "question": "¿Busca elevar sus <strong>experiencias sexuales</strong> y eliminar la monotonía y el aburrimiento?",
+      "agreeButtonText": "SÍ"
+    },
+    "enticingOneScreen": {
+      "question": "¿Aspiras a ser la seductora que deja a un hombre <strong>sin aliento?</strong>",
+      "agreeButtonText": "SÍ"
+    },
+    "intimateLifeCheckScreen": {
+      "title": "Te hago la última pregunta",
+      "rateText": "cariño, ¡y luego pasaremos a lo principal! <strong>Valora tu vida íntima con tu pareja.</strong>",
+      "excellentOptionText": "Excelente, no podría ser mejor.",
+      "goodOptionText": "Buena, pero se puede mejorar.",
+      "averageMinOptionText": "En promedio, no es ni genial ni terrible.",
+      "needWorkOptionText": "Necesitamos trabajo, nos enfrentamos a retos.",
+      "unsatisfactoryOptionText": "Insatisfactorio, hay problemas importantes."
+    },
+    "emailScreen": {
+      "text": "Introduce tu email para diseñar la transformación de tu <strong>vida sexual</strong>",
+      "emailLabel": "Email",
+      "emailPlaceholder": "email@email.com",
+      "newsletterText": "Me gustaría recibir información valiosa, ofertas exclusivas y ¡las últimas noticias directamente a mi bandeja de entrada!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "goodTestResultsScreen": {
+      "title": "¡La transformación de tu vida sexual te está esperando!",
+      "text": "Cariño, ¡eso es increíble! Pero sabes que la perfección no tiene límites, ¿verdad? ¡Te ofrezco algo aún más grande!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "averageTestResultsScreen": {
+      "title": "¡La transformación de tu vida sexual te está esperando!",
+      "text": "Bueno bueno bueno, ¡parece que tenemos algunos problemas de insatisfacción aquí!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "unsatisfactoryTestResultsScreen": {
+      "title": "¡La transformación de tu vida sexual te está esperando!",
+      "text": "Bueno bueno bueno, veo algunos problemas serios aquí.",
+      "continueButtonText": "CONTINUAR"
     }
   }
 }
