@@ -7,10 +7,16 @@ import {getDefaultTheme} from "./utils/theme.utils";
 import {BrowserRouter} from "react-router-dom";
 import {AgeCheckScreen} from "./screens/AgeCheck/AgeCheckScreen";
 import {HonestCheckScreen} from "./screens/HonestCheck/HonestCheckScreen";
-import {CONFIDENT_CHECK_ROUTE, HONEST_CHECK_ROUTE, TEST_BEGINNING_ROUTE} from "./constants/routes.constants";
+import {
+    CONFIDENT_CHECK_ROUTE,
+    CURRENT_RELATIONSHIP_ROUTE,
+    HONEST_CHECK_ROUTE,
+    TEST_BEGINNING_ROUTE
+} from "./constants/routes.constants";
 import {TestBeginningScreen} from "./screens/TestBeginningScreen/TestBeginningScreen";
 import {ProgressBar} from "./components/ProgressBar/ProgressBar";
 import {ConfidentCheckScreen} from "./screens/ConfidentCheckScreen/ConfidentCheckScreen";
+import {CurrentRelationshipScreen} from "./screens/currentRelationshipScreen/CurrentRelationshipScreen";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);
@@ -29,6 +35,7 @@ function App() {
                           <Route path={HONEST_CHECK_ROUTE} element={<HonestCheckScreen/> } />
                           <Route path={TEST_BEGINNING_ROUTE} element={<TestBeginningScreen/> } />
                           <Route path={CONFIDENT_CHECK_ROUTE} element={<ConfidentCheckScreen/> } />
+                          <Route path={CURRENT_RELATIONSHIP_ROUTE} element={<CurrentRelationshipScreen/> } />
                       </Routes>
                   </div>
               </div>

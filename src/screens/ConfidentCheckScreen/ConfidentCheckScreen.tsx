@@ -1,9 +1,10 @@
 import {useTranslation} from "react-i18next";
-import {feelPhysicallyConfident} from "../../assets/onBoardingPictures";
 import {Button} from "../../components/lego/Button/Button";
 import {ButtonThemes} from "../../constants/button.constants";
 import './ConfidentCheckScreen.scss';
 import {Link} from "react-router-dom";
+import {CURRENT_RELATIONSHIP_ROUTE} from "../../constants/routes.constants";
+import {feelPhysicallyConfident} from "../../assets/onBoardingPictures";
 
 export const ConfidentCheckScreen =()=>{
     const { t } = useTranslation('onboarding');
@@ -16,12 +17,12 @@ export const ConfidentCheckScreen =()=>{
             </div>
             <div>
             <div className={'confidentAgreeButton'}>
-                <Link to={'/'}>
+                <Link to={CURRENT_RELATIONSHIP_ROUTE}>
                     <Button text={t("confidentCheckScreen.agreeButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
             <div className={'confidentDisagreeButton'}>
-                <Link to={'/'}>
+                <Link to={CURRENT_RELATIONSHIP_ROUTE}>
                     <Button text={t("confidentCheckScreen.disagreeButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
