@@ -16,6 +16,11 @@
       "introductoryTitle": "Hundreds of thousands",
       "introductoryText": "women unlocked their full potential, transformed their <strong>Sex Life</strong> and improved their relationships",
       "continueButton": "CONTINUE"
+    },
+    "confidentCheckScreen": {
+      "confidentFeelQuestion": "Do you feel physically confident and satisfied?",
+      "agreeButton": "Yes, totally",
+      "disagreeButton": "Things could be better"
     }
   }
 }

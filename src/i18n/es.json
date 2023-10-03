@@ -16,6 +16,11 @@
       "introductoryTitle": "Cientos de miles",
       "introductoryText": "de mujeres liberan todo su potencial, transformaron su <strong>Vida Sexual</strong> y mejoraron sus relaciones de pareja",
       "continueButton": "CONTINUAR"
+    },
+    "confidentCheckScreen": {
+      "confidentFeelQuestion": "¿Se siente físicamente seguro y satisfecho?",
+      "agreeButton": "Sí, totalmente",
+      "disagreeButton": "Podría estar mejor"
     }
   }
 }

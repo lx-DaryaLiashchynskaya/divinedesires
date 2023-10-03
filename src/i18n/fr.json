@@ -16,6 +16,11 @@
       "introductoryTitle": "Des centaines de milliers",
       "introductoryText": "de femmes ont libéré leur plein potentiel, transformé leur <strong>vie sexuelle</strong> et amélioré leurs relations",
       "continueButton": "CONTINUER"
+    },
+    "confidentCheckScreen": {
+      "confidentFeelQuestion": "Vous sentez-vous physiquement confiant(e) et satisfait(e) ?",
+      "agreeButton": "Oui, tout à fait",
+      "disagreeButton": "Les choses pourraient s'améliorer"
     }
   }
 }
