@@ -9,6 +9,7 @@ import {AgeCheckScreen} from "./screens/AgeCheck/AgeCheckScreen";
 import {HonestCheckScreen} from "./screens/HonestCheck/HonestCheckScreen";
 import {HONEST_CHECK_ROUTE, TEST_BEGINNING_ROUTE} from "./constants/routes.constants";
 import {TestBeginningScreen} from "./screens/TestBeginningScreen/TestBeginningScreen";
+import {ProgressBar} from "./components/ProgressBar/ProgressBar";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);
@@ -18,7 +19,10 @@ function App() {
           <BrowserRouter>
               <div className={`app ${theme}`}>
                   <div className={`appContainer ${theme}`}>
-                      <Header />
+                      <div>
+                          <Header />
+                          <ProgressBar />
+                      </div>
                       <Routes>
                           <Route path="/" element={<AgeCheckScreen/> } />
                           <Route path={HONEST_CHECK_ROUTE} element={<HonestCheckScreen/> } />
