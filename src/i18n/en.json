@@ -27,6 +27,92 @@
       "breakingUpStageButton": "You're on the verge of breaking up.",
       "perfectStageButton": "Everything is perfect.",
       "difficultQuestionButton": "I find it difficult to answer."
+    },
+    "candidlyCheckScreen": {
+      "title": "Sure thing, it seems we have something to talk about candidly!",
+      "supportText": "Remember, we agreed - we're answering as honestly as possible!",
+      "agreeButton": "YES"
+    },
+    "relationshipIssuesScreen": {
+      "question": "What relationship issue is currently bothering you the most?",
+      "noCommonInterestsIssueText":"We have different values and outlooks on life. No common interests.",
+      "understandingIssueText": "Lack of understanding with my partner. We can't have an open and calm dialogue.",
+      "domesticIssueText": "Domestic issues in the relationship. We can't cope with them.",
+      "boredomIssueText": "Boredom. Sex has become bland and uninteresting, my partner doesn't want to try anything new, and I haven't been on a date in a long time.",
+      "interestIssueText": "I see that he's more interested in other girls than in me."
+    },
+    "boredomDiscussionScreen": {
+      "title": "Sometimes, even in the happiest relationships",
+      "text": "partners can become bored. It all started so brightly: the bouquet-and-candy period of courtship, passion, romance, intense sex, long conversations throughout the night...",
+      "question": "But now it's routine, monotonous, and no signs of attention.",
+      "agreeButtonText": "YES, THAT’S HOW IT IS."
+    },
+    "checkPartnerOpennessScreen": {
+      "title": "Before giving you a cool, important piece of advice",
+      "text": " I need to know a few more things from you. Please answer honestly, remember, we agreed on that.",
+      "question": "Can you say that you're completely open with your partner 100%?",
+      "agreeButtonText": "YES",
+      "disagreeButtonText": "NO"
+    },
+    "relationshipOpennessScreen": {
+      "title": "Darling, you're really clever",
+      "text": "It's great that you're open. And I hope your partner is also 100% open with you.",
+      "continueButtonText": "CONTINUE"
+    },
+    "relationshipDistantScreen": {
+      "title": "Darling, try to be completely open with them",
+      "text": "Sometimes we see a problem but we don't want to solve it ourselves or take the first steps. Take the first step and you'll see, the first changes won't make you wait.",
+      "tryButtonText": "I’LL TRY"
+    },
+    "educationTimeCheckScreen": {
+      "question": "How much time are you ready to spend learning how to transform your <strong>Sex LIfe?</strong>",
+      "tenMinOptionText": "10 min/day",
+      "twentyMinOptionText": "20 min/day",
+      "thirtyMinOptionText": "30 min/day",
+      "sixtyMinOptionText": "60 min/day"
+    },
+    "somethingNewReadinessScreen": {
+      "question": "Do you want to explore your partner in bed <strong>\"from A to Z\"</strong> and try something new?",
+      "agreeButtonText": "YES"
+    },
+    "elevateSexualPotentialScreen": {
+      "question": "Are you looking to elevate your <strong>sexual experiences</strong> and eliminate monotony and dullness?",
+      "agreeButtonText": "YES"
+    },
+    "enticingOneScreen": {
+      "question": "Do you aspire to be the enticing one who leaves a man <strong>breathless?</strong?",
+      "agreeButtonText": "YES"
+    },
+    "intimateLifeCheckScreen": {
+      "title": "I'm asking you the final question",
+      "rateText": "sweetheart, and then we'll move on to the main thing! <strong>Rate your intimate life with your partner.</strong>",
+      "excellentOptionText": "Excellent, couldn't be better.",
+      "goodOptionText": "Good, but there's room for improvement.",
+      "averageMinOptionText": "Average, it's neither great nor terrible.",
+      "needWorkOptionText": "Need work, we're facing challenges.",
+      "unsatisfactoryOptionText": "Unsatisfactory, there are significant issues."
+    },
+    "emailScreen": {
+      "text": "Enter your email to design your <strong>Sex life</strong> transformation",
+      "emailLabel": "Email",
+      "emailPlaceholder": "email@email.com",
+      "newsletterText": "I'd like to receive valuable insights, exclusive offers, and the latest news straight to my inbox!",
+      "continueButtonText": "CONTINUE"
+    },
+    "goodTestResultsScreen": {
+      "title": "Your Sex life transformation is waiting for you!",
+      "text": "Honey, that's awesome! But you do know that there's no limit to perfection, right? I'm offering you something even greater!",
+      "continueButtonText": "CONTINUE"
+    },
+    "averageTestResultsScreen": {
+      "title": "Your Sex life transformation is waiting for you!",
+      "text": "Well well well, looks like we have some issues of dissatisfaction here!",
+      "continueButtonText": "CONTINUE"
+    },
+    "unsatisfactoryTestResultsScreen": {
+      "title": "Your Sex life transformation is waiting for you!",
+      "text": "Well well well, I see some serious problems here.",
+      "continueButtonText": "CONTINUE"
     }
   }
 }

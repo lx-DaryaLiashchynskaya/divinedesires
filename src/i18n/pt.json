@@ -27,6 +27,92 @@
       "breakingUpStageButton": "Está quase a terminar a relação.",
       "perfectStageButton": "Tudo é perfeito.",
       "difficultQuestionButton": "É-me difícil responder."
+    },
+    "candidlyCheckScreen": {
+      "title": "Claro, parece que temos algo para falar com franqueza!",
+      "supportText": "Lembre-se, nós combinamos - vamos responder o mais honestamente possível!",
+      "agreeButton": "SIM"
+    },
+    "relationshipIssuesScreen": {
+      "question": "Qual é o problema de relacionamento que mais o incomoda atualmente?",
+      "understandingIssueText": "A falta de entendimento com o meu parceiro. Não conseguimos ter um diálogo aberto e calmo.",
+      "noCommonInterestsIssueText":"Temos valores e perspectivas de vida diferentes. Não temos interesses comuns.",
+      "domesticIssueText": "Problemas domésticos na relação. Não conseguimos lidar com eles.",
+      "boredomIssueText": "Aborrecimento. O sexo tornou-se insípido e desinteressante, o meu parceiro não quer experimentar nada de novo e há muito tempo que não tenho um encontro.",
+      "interestIssueText": "Vejo que ele está mais interessado noutras raparigas do que em mim."
+    },
+    "boredomDiscussionScreen": {
+      "title": "Por vezes, mesmo nas relações mais felizes",
+      "text": "os parceiros podem aborrecer-se. Tudo começou tão bem: o período de namoro, paixão, romance, sexo intenso, longas conversas durante a noite...",
+      "question": "Mas agora é a rotina, a monotonia e nenhum sinal de atenção...",
+      "agreeButtonText": "SIM, É ASSIM MESMO."
+    },
+    "checkPartnerOpennessScreen": {
+      "title": "Antes de te dar um conselho importante e fixe",
+      "text": "preciso de saber mais algumas coisas sobre ti. Por favor, responda honestamente, lembre-se, nós concordamos com isso.",
+      "question": "Podes dizer que és completamente aberto com o teu parceiro 100%?",
+      "agreeButtonText": "SIM",
+      "disagreeButtonText": "SIM NÃO"
+    },
+    "relationshipOpennessScreen": {
+      "title": "Querida, és muito inteligente",
+      "text": "É ótimo que seja aberta. E espero que o teu parceiro também seja 100% aberto contigo.",
+      "continueButtonText": "CONTINUAR"
+    },
+    "relationshipDistantScreen": {
+      "title": "Querida, tenta ser completamente aberta com eles",
+      "text": "Por vezes, vemos um problema mas não queremos resolvê-lo nós próprios ou dar os primeiros passos. Dá o primeiro passo e verás que as primeiras mudanças não te farão esperar.",
+      "tryButtonText": "VOU TENTAR"
+    },
+    "educationTimeCheckScreen": {
+      "question": "Quanto tempo está disposto a gastar para aprender a transformar a sua <strong>Vida Sexual?</strong>",
+      "tenMinOptionText": "10 min/dia",
+      "twentyMinOptionText": "20 min/dia",
+      "thirtyMinOptionText": "30 min/dia",
+      "sixtyMinOptionText": "60 min/dia"
+    },
+    "somethingNewReadinessScreen": {
+      "question": "Queres explorar o teu parceiro na cama <strong>\"de A a Z\"</strong> e experimentar algo novo?",
+      "agreeButtonText": "SIM"
+    },
+    "elevateSexualPotentialScreen": {
+      "question": "Procura elevar as suas <strong>experiências sexuais</strong> e eliminar a monotonia e a monotonia?",
+      "agreeButtonText": "SIM"
+    },
+    "enticingOneScreen": {
+      "question": "Aspira a ser a sedutora que deixa um homem <strong>sem fôlego?</strong>",
+      "agreeButtonText": "SIM"
+    },
+    "intimateLifeCheckScreen": {
+      "title": "Estou a fazer-te a última pergunta",
+      "rateText": " querida, e depois passamos ao essencial! <strong>Avalie a sua vida íntima com o seu parceiro.</strong>",
+      "excellentOptionText": "Excelente, não podia ser melhor.",
+      "goodOptionText": "Boa, mas pode ser melhorada.",
+      "averageMinOptionText": "Média, não é nem ótima nem péssima.",
+      "needWorkOptionText": "Precisa de ser trabalhada, estamos a enfrentar desafios.",
+      "unsatisfactoryOptionText": "Insatisfatório, existem problemas significativos."
+    },
+    "emailScreen": {
+      "text": "Introduza o seu e-mail para conceber a transformação da sua <strong>vida sexual</strong>",
+      "emailLabel": "Email",
+      "emailPlaceholder": "email@email.com",
+      "newsletterText": "Gostaria de receber informações valiosas, ofertas exclusivas e as últimas notícias diretamente na minha caixa de correio!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "goodTestResultsScreen": {
+      "title": "A transformação da sua vida sexual está à sua espera!",
+      "text": "Querida, isso é fantástico! Mas sabes que a perfeição não tem limites, certo? Estou a oferecer-te algo ainda maior!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "averageTestResultsScreen": {
+      "title": "A transformação da sua vida sexual está à sua espera!",
+      "text": "Ora bem, ora bem, parece que temos aqui alguns problemas de insatisfação!",
+      "continueButtonText": "CONTINUAR"
+    },
+    "unsatisfactoryTestResultsScreen": {
+      "title": "A transformação da sua vida sexual está à sua espera!",
+      "text": "Ora bem, ora bem, vejo aqui alguns problemas sérios.",
+      "continueButtonText": "CONTINUAR"
     }
   }
 }
