@@ -5,11 +5,12 @@ interface ButtonProps {
     text:string;
     theme:ButtonThemes;
     width:number;
+    onClick?: ()=>void;
 }
 
-export const Button= ({text,theme,width}:ButtonProps)=>{
+export const Button= ({onClick,text,theme,width}:ButtonProps)=>{
     return (
-        <button className={`button ${theme===ButtonThemes.LIGHT? 'whiteButtonTheme':'redButtonTheme'}`}
+        <button onClick={onClick} className={`button ${theme===ButtonThemes.LIGHT? 'whiteButtonTheme':'redButtonTheme'}`}
                 style={{width:`${width}%`}}>
             {text}
         </button>
