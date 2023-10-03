@@ -50,7 +50,7 @@
     "checkPartnerOpennessScreen": {
       "title": "Antes de te dar um conselho importante e fixe",
       "text": "preciso de saber mais algumas coisas sobre ti. Por favor, responda honestamente, lembre-se, nós concordamos com isso.",
-      "question": "Podes dizer que és completamente aberto com o teu parceiro?",
+      "question": "Podes dizer que és completamente aberto com o teu parceiro 100%?",
       "agreeButtonText": "SIM",
       "disagreeButtonText": "SIM NÃO"
     },

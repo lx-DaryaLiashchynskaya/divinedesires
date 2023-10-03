@@ -50,7 +50,7 @@
     "checkPartnerOpennessScreen": {
       "title": "Avant de vous donner un conseil génial et important",
       "text": " j'ai besoin d'en savoir plus sur vous. Réponds honnêtement, n'oublie pas que nous nous sommes mis d'accord sur ce point.",
-      "question": "Pouvez-vous dire que vous êtes complètement ouvert avec votre partenaire ?",
+      "question": "Pouvez-vous dire que vous êtes complètement ouvert avec votre partenaire 100% ?",
       "agreeButtonText": "OUI",
       "disagreeButtonText": "OUI NON"
     },

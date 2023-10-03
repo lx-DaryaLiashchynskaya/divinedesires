@@ -50,7 +50,7 @@
     "checkPartnerOpennessScreen": {
       "title": "Bevor ich Ihnen einen coolen, wichtigen Rat geben kann",
       "text": "muss ich noch ein paar Dinge von Ihnen wissen. Bitte antworten Sie ehrlich, denken Sie daran, dass wir uns darauf geeinigt haben.",
-      "question": "Können Sie sagen, dass Sie Ihrem Partner gegenüber völlig offen sind?",
+      "question": "Können Sie sagen, dass Sie Ihrem Partner gegenüber völlig offen sind 100%?",
       "agreeButtonText": "JA",
       "disagreeButtonText": "NEIN"
     },
