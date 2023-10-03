@@ -24,7 +24,7 @@
     },
     "currentRelationshipScreen": {
       "stageCheckQuestion": "How satisfied are you with your current relationship with your partner?",
-      "BreakingUpStageButton": "You're on the verge of breaking up.",
+      "breakingUpStageButton": "You're on the verge of breaking up.",
       "perfectStageButton": "Everything is perfect.",
       "difficultQuestionButton": "I find it difficult to answer."
     }

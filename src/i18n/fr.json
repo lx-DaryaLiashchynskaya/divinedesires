@@ -24,7 +24,7 @@
     },
     "currentRelationshipScreen": {
       "stageCheckQuestion": "Dans quelle mesure êtes-vous satisfait(e) de votre relation actuelle avec votre partenaire ?",
-      "BreakingUpStageButton": "Vous êtes au bord de la rupture.",
+      "breakingUpStageButton": "Vous êtes au bord de la rupture.",
       "perfectStageButton": "Tout est parfait.",
       "difficultQuestionButton": "Il m'est difficile de répondre."
     }
