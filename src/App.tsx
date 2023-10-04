@@ -8,6 +8,7 @@ import {BrowserRouter} from "react-router-dom";
 import {AgeCheckScreen} from "./screens/onboarding/AgeCheck/AgeCheckScreen";
 import {HonestCheckScreen} from "./screens/onboarding/HonestCheck/HonestCheckScreen";
 import {
+    CANDOR_CHECK_ROUTE,
     CONFIDENT_CHECK_ROUTE,
     CURRENT_RELATIONSHIP_ROUTE,
     HONEST_CHECK_ROUTE,
@@ -16,7 +17,8 @@ import {
 import {TestBeginningScreen} from "./screens/onboarding/TestBeginningScreen/TestBeginningScreen";
 import {ProgressBar} from "./components/ProgressBar/ProgressBar";
 import {ConfidentCheckScreen} from "./screens/onboarding/ConfidentCheckScreen/ConfidentCheckScreen";
-import {CurrentRelationshipScreen} from "./screens/onboarding/currentRelationshipScreen/CurrentRelationshipScreen";
+import {CurrentRelationshipScreen} from "./screens/onboarding/CurrentRelationshipScreen/CurrentRelationshipScreen";
+import {CandorCheckScreen} from "./screens/onboarding/CandorCheckScreen/CandorCheckScreen";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);
@@ -36,6 +38,7 @@ function App() {
                           <Route path={TEST_BEGINNING_ROUTE} element={<TestBeginningScreen/> } />
                           <Route path={CONFIDENT_CHECK_ROUTE} element={<ConfidentCheckScreen/> } />
                           <Route path={CURRENT_RELATIONSHIP_ROUTE} element={<CurrentRelationshipScreen/> } />
+                          <Route path={CANDOR_CHECK_ROUTE} element={<CandorCheckScreen/> } />
                       </Routes>
                   </div>
               </div>

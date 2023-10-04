@@ -4,6 +4,7 @@ import {ButtonThemes} from "../../../constants/button.constants";
 import './CurrentRelationshipScreen.scss';
 import {Link} from "react-router-dom";
 import {currentRelationship} from "../../../assets/onBoardingPictures";
+import {CANDOR_CHECK_ROUTE} from "../../../constants/routes.constants";
 
 export const CurrentRelationshipScreen =()=>{
     const { t } = useTranslation('onboarding');
@@ -22,7 +23,7 @@ export const CurrentRelationshipScreen =()=>{
             <div>
                 {currentRelationshipAnswerOptions.map((optionText)=>{
                     return <div key={optionText} className={'currentRelationshipAnswerButton'}>
-                        <Link to={'/'}>
+                        <Link to={CANDOR_CHECK_ROUTE}>
                             <Button text={optionText} theme={ButtonThemes.DARK} width={100} />
                         </Link>
                     </div>
