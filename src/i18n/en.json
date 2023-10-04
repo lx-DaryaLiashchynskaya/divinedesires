@@ -28,7 +28,7 @@
       "perfectStageButton": "Everything is perfect.",
       "difficultQuestionButton": "I find it difficult to answer."
     },
-    "candidlyCheckScreen": {
+    "candorCheckScreen": {
       "title": "Sure thing, it seems we have something to talk about candidly!",
       "supportText": "Remember, we agreed - we're answering as honestly as possible!",
       "agreeButton": "YES"
