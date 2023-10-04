@@ -1,7 +1,7 @@
 import {
     PROGRESS_BAR_ROUTES,
     ProgressBarState
-} from "../constants/progressBar.constants";
+} from "../constants/onBoardingConstants/progressBar.constants";
 import {IProgressDivision} from "../types/progressBar.types";
 
 export const getProgressDivisionsInitialState=():IProgressDivision[]=>{

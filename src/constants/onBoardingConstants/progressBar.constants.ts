@@ -1,4 +1,4 @@
-import {CONFIDENT_CHECK_ROUTE, CURRENT_RELATIONSHIP_ROUTE, TEST_BEGINNING_ROUTE} from "./routes.constants";
+import {CONFIDENT_CHECK_ROUTE, CURRENT_RELATIONSHIP_ROUTE, TEST_BEGINNING_ROUTE} from "../routes.constants";
 
 export enum ProgressBarState {
     FILLED='filled',
