@@ -11,7 +11,7 @@ import {
     CANDOR_CHECK_ROUTE,
     CONFIDENT_CHECK_ROUTE,
     CURRENT_RELATIONSHIP_ROUTE,
-    HONEST_CHECK_ROUTE,
+    HONEST_CHECK_ROUTE, RELATIONSHIP_ISSUE_ROUTE,
     TEST_BEGINNING_ROUTE
 } from "./constants/routes.constants";
 import {TestBeginningScreen} from "./screens/onboarding/TestBeginningScreen/TestBeginningScreen";
@@ -19,6 +19,7 @@ import {ProgressBar} from "./components/ProgressBar/ProgressBar";
 import {ConfidentCheckScreen} from "./screens/onboarding/ConfidentCheckScreen/ConfidentCheckScreen";
 import {CurrentRelationshipScreen} from "./screens/onboarding/CurrentRelationshipScreen/CurrentRelationshipScreen";
 import {CandorCheckScreen} from "./screens/onboarding/CandorCheckScreen/CandorCheckScreen";
+import {RelationshipIssueScreen} from "./screens/onboarding/RelationshipIssueScreen/RelationshipIssueScreen";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);
@@ -39,6 +40,7 @@ function App() {
                           <Route path={CONFIDENT_CHECK_ROUTE} element={<ConfidentCheckScreen/> } />
                           <Route path={CURRENT_RELATIONSHIP_ROUTE} element={<CurrentRelationshipScreen/> } />
                           <Route path={CANDOR_CHECK_ROUTE} element={<CandorCheckScreen/> } />
+                          <Route path={RELATIONSHIP_ISSUE_ROUTE} element={<RelationshipIssueScreen/> } />
                       </Routes>
                   </div>
               </div>

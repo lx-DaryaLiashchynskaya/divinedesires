@@ -1,0 +1,24 @@
+@use "sass:map";
+@import "../../../styles/sizes";
+@import "../../../styles/fonts-weights";
+
+.relationshipIssueContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.relationshipIssueQuestion {
+  text-align: center;
+  margin: $default-gap 0;
+  font-weight: map.get($font-weights,"title");
+}
+
+.relationshipIssueOptionButton {
+  margin-top: $default-gap;
+
+  &:last-child {
+    margin-bottom: $default-bottom-gap;
+  }
+}

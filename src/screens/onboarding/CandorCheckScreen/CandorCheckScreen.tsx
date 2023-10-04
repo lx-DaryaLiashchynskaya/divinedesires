@@ -4,6 +4,7 @@ import {Button} from "../../../components/lego/Button/Button";
 import {ButtonThemes} from "../../../constants/button.constants";
 import './CandorCheckScreen.scss';
 import {Link} from "react-router-dom";
+import {RELATIONSHIP_ISSUE_ROUTE} from "../../../constants/routes.constants";
 
 export const CandorCheckScreen =()=>{
     const { t } = useTranslation('onboarding');
@@ -16,7 +17,7 @@ export const CandorCheckScreen =()=>{
                 <p className={'candorCheckText'}>{t("candorCheckScreen.supportText")}</p>
             </div>
             <div className={'candorCheckAgreeButton'}>
-                <Link to={'/'}>
+                <Link to={RELATIONSHIP_ISSUE_ROUTE}>
                     <Button text={t("candorCheckScreen.agreeButton")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
             </div>
