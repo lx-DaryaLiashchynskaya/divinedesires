@@ -1,10 +1,10 @@
 import './OnBoardingAgeCheck.scss';
 import {useTranslation} from "react-i18next";
-import {AGE_GAPS} from "../../constants/onBoardingConstants/ageCheck.constants";
-import {Button} from "../lego/Button/Button";
-import {ButtonThemes} from "../../constants/button.constants";
+import {AGE_GAPS} from "../../../constants/onBoardingConstants/ageCheck.constants";
+import {Button} from "../../lego/Button/Button";
+import {ButtonThemes} from "../../../constants/button.constants";
 import {Link} from "react-router-dom";
-import {HONEST_CHECK_ROUTE} from "../../constants/routes.constants";
+import {HONEST_CHECK_ROUTE} from "../../../constants/routes.constants";
 
 
 

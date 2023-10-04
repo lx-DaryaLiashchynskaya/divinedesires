@@ -1,6 +1,6 @@
 @use "sass:map";
-@import "./src/styles/sizes";
-@import "../../styles/fonts-weights";
+@import "../../../styles/sizes";
+@import "../../../styles/fonts-weights";
 
 .currentRelationshipContainer {
   display: flex;

@@ -1,7 +1,7 @@
 import './ProgressBar.scss';
 import {useEffect, useState} from "react";
 import {useLocation} from "react-router";
-import {PROGRESS_BAR_ROUTES, ProgressBarState} from "../../constants/progressBar.constants";
+import {PROGRESS_BAR_ROUTES, ProgressBarState} from "../../constants/onBoardingConstants/progressBar.constants";
 import {ProgressDivision} from "./ProgressDivision/ProgressDivision";
 import {getProgressDivisionsInitialState} from "../../utils/progressBar.utils";
 import {IProgressDivision} from "../../types/progressBar.types";

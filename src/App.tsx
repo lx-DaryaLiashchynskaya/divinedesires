@@ -5,18 +5,18 @@ import {Routes , Route } from "react-router-dom";
 import { ThemeContext } from './context/themeContext';
 import {getDefaultTheme} from "./utils/theme.utils";
 import {BrowserRouter} from "react-router-dom";
-import {AgeCheckScreen} from "./screens/AgeCheck/AgeCheckScreen";
-import {HonestCheckScreen} from "./screens/HonestCheck/HonestCheckScreen";
+import {AgeCheckScreen} from "./screens/onboarding/AgeCheck/AgeCheckScreen";
+import {HonestCheckScreen} from "./screens/onboarding/HonestCheck/HonestCheckScreen";
 import {
     CONFIDENT_CHECK_ROUTE,
     CURRENT_RELATIONSHIP_ROUTE,
     HONEST_CHECK_ROUTE,
     TEST_BEGINNING_ROUTE
 } from "./constants/routes.constants";
-import {TestBeginningScreen} from "./screens/TestBeginningScreen/TestBeginningScreen";
+import {TestBeginningScreen} from "./screens/onboarding/TestBeginningScreen/TestBeginningScreen";
 import {ProgressBar} from "./components/ProgressBar/ProgressBar";
-import {ConfidentCheckScreen} from "./screens/ConfidentCheckScreen/ConfidentCheckScreen";
-import {CurrentRelationshipScreen} from "./screens/currentRelationshipScreen/CurrentRelationshipScreen";
+import {ConfidentCheckScreen} from "./screens/onboarding/ConfidentCheckScreen/ConfidentCheckScreen";
+import {CurrentRelationshipScreen} from "./screens/onboarding/currentRelationshipScreen/CurrentRelationshipScreen";
 
 function App() {
     const [theme, setTheme] = useState(getDefaultTheme);

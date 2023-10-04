@@ -1,10 +1,10 @@
 import {useTranslation} from "react-i18next";
-import {Button} from "../../components/lego/Button/Button";
-import {ButtonThemes} from "../../constants/button.constants";
+import {Button} from "../../../components/lego/Button/Button";
+import {ButtonThemes} from "../../../constants/button.constants";
 import './ConfidentCheckScreen.scss';
 import {Link} from "react-router-dom";
-import {CURRENT_RELATIONSHIP_ROUTE} from "../../constants/routes.constants";
-import {feelPhysicallyConfident} from "../../assets/onBoardingPictures";
+import {CURRENT_RELATIONSHIP_ROUTE} from "../../../constants/routes.constants";
+import {feelPhysicallyConfident} from "../../../assets/onBoardingPictures";
 
 export const ConfidentCheckScreen =()=>{
     const { t } = useTranslation('onboarding');

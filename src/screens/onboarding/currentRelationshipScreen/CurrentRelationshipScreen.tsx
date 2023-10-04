@@ -1,9 +1,9 @@
 import {useTranslation} from "react-i18next";
-import {Button} from "../../components/lego/Button/Button";
-import {ButtonThemes} from "../../constants/button.constants";
+import {Button} from "../../../components/lego/Button/Button";
+import {ButtonThemes} from "../../../constants/button.constants";
 import './CurrentRelationshipScreen.scss';
 import {Link} from "react-router-dom";
-import {currentRelationship} from "../../assets/onBoardingPictures";
+import {currentRelationship} from "../../../assets/onBoardingPictures";
 
 export const CurrentRelationshipScreen =()=>{
     const { t } = useTranslation('onboarding');

@@ -1,4 +1,4 @@
-import {ProgressBarState} from "../constants/progressBar.constants";
+import {ProgressBarState} from "../constants/onBoardingConstants/progressBar.constants";
 
 export interface IProgressDivision {
     divisionNumber: number,
