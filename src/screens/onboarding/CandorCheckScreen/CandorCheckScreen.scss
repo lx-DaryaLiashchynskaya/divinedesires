@@ -2,36 +2,28 @@
 @import "../../../styles/sizes";
 @import "../../../styles/fonts-weights";
 
-.honestCheckContainer {
+.candorCheckContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.beforeBeginPicture {
+.candorCheckPicture {
   border-radius: $picture-border-radius;
 }
 
-.honestCheckTitle {
+.candorCheckTitle {
+  text-align: center;
+  margin-top: $default-gap*2;
+}
+
+.candorCheckText {
   text-align: center;
   margin-top: $default-gap;
 }
 
-.honestCheckText {
-  text-align: center;
-  margin-top: $default-gap;
-}
-
-.honestCheckQuestion {
-  text-align: center;
-  margin-top: $default-gap;
-  font-weight: map.get($font-weights,"title");
-}
-
-.honestCheckAgreeButton {
-  margin-top: $default-gap;
+.candorCheckAgreeButton {
+  margin-top: $default-gap*2;
   margin-bottom: $default-bottom-gap;
 }
-
-

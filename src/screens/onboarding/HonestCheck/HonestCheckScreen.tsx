@@ -17,7 +17,7 @@ export const HonestCheckScreen =()=>{
                 <p className={'honestCheckText'}>{t("honestCheckScreen.beforeBeginInfo")}</p>
                 <h6 className={'honestCheckQuestion'}>{t("honestCheckScreen.beforeBeginQuestion")}</h6>
             </div>
-            <div className={'agreeButton'}>
+            <div className={'honestCheckAgreeButton'}>
                 <Link to={TEST_BEGINNING_ROUTE}>
                     <Button text={t("honestCheckScreen.agreeButtonText")} theme={ButtonThemes.DARK} width={100} />
                 </Link>
